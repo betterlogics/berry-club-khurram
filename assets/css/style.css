@@ -59,9 +59,7 @@ color: white;
     padding: 15px 0 5px;
 }
 @media screen and (max-width: 768px){
-    #about .about-carousel{
-       
-    }
+  
 }
 
 /* free minting  */
@@ -74,6 +72,12 @@ color: white;
 #free-minting .ps-info-box img {
     margin: 30px 0;
     max-width: 25%;
+}
+@media screen and (max-width: 768px){
+    #free-minting .ps-info-box img {
+        margin: 20px 0;
+        max-width: 50%;
+    }
 }
 #free-minting #mint-btn {
     text-decoration: none;
@@ -91,7 +95,13 @@ color: white;
     background-position: top;
     background-size: cover;
 }
-
+#roadmap .container {
+    background: url(/assets/img/container-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px 0;
+}
 .pre{
     background: #179ae4;
     border-radius: 100%;
@@ -107,8 +117,19 @@ color: white;
     z-index: 3;
 
 }
+/* .card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+
+    .card-section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+} */
 .card{
-    background-color:transparent;
+ background-color:transparent;
 }
 .card-body{
     background: rgba(4,26,35,.9);
