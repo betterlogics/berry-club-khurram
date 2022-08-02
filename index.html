@@ -29,6 +29,25 @@
             height: 100%;
         }
 
+        .swiper-slide img {
+            display: block;
+            width: 20%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* slider2 */
+        /* .swiper2 {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper2-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } */
+
         /* .swiper-slide {
             text-align: center;
             font-size: 18px;
@@ -48,12 +67,6 @@
             align-items: center;
         } */
 
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
     </style>
 </head>
 
@@ -165,25 +178,48 @@
                 </div>
             </div>
             <!-- about car0usel -->
-            <div class="row mt-5 justify-content-center">
-                <div class=" about-carousel" data-aos="fade-up" data-aos-delay="300">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img//girl-whitebg.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
-                            <div class="swiper-slide"><img src="/assets/img/girl-whitebg.png" alt=""></div>
+            <div class="desktop_div">
+                <div class="row mt-5 " >
+                    <div class=" about-carousel" data-aos="fade-up" data-aos-delay="300">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img//girl-whitebg.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/girl-whitebg.png" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
-
                 </div>
             </div>
+            <!--  -->
+            <div class="res_div">
+                <div class="row mt-5 ">
+                    <div class=" about-carousel" data-aos="fade-up" data-aos-delay="300">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img//girl-whitebg.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/k-blue.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/g-white.png" alt=""></div>
+                                <div class="swiper-slide"><img src="/assets/img/girl-whitebg.png" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
         </div>
     </section>
     <!-- free minting  -->
@@ -215,7 +251,7 @@
                     <h2>ROADMAP</h2>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
+            <div class="row justify-content-around">
                 <!-- card 1 -->
                 <div class="card  pt-5 " style="width: 19rem;" data-aos="fade" data-aos-delay="300">
                     <span class=" pre rounded-circle" data-aos="flip-left" data-aos-delay="600">1%</span>
@@ -324,10 +360,27 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
+    <!-- Initialize Swiper slider1 -->
+    <script class="desktop_div">
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 5,
+            spaceBetween: 10,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: true,
+            // },
+        });
+    </script>
+    <!--  -->
+    <!-- slider2  -->
+    <script class="res_div">
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
             spaceBetween: 10,
             centeredSlides: true,
             autoplay: {

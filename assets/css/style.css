@@ -58,8 +58,16 @@ color: white;
     background-size: cover;
     padding: 15px 0 5px;
 }
-@media screen and (max-width: 768px){
-  
+@media screen and (max-width: 800px){
+  .desktop_div{
+    display: none;
+  }
+}
+
+@media (min-width:801px) and (max-width:5000px) {
+    .res_div{
+        display: none ;
+    }
 }
 
 /* free minting  */
