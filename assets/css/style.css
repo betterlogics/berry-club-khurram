@@ -1,0 +1,122 @@
+body{
+    font-size:17px;
+    color: white;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.langButton{
+ background: none !important;
+border: none !important;
+color: white;
+}
+.langButton:focus{
+    color: green;
+}
+/* home section  */
+#home {
+    align-items: center;
+    background: url(/assets/img/main-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
+
+#home .head{
+    margin: auto;
+    max-width: 60%;
+}
+@media screen and (max-width: 768px){
+#home .head {
+    max-width: 100%;
+}
+#home .btn-cta img {
+    max-width: 70% !important;
+    padding: 5px !important;
+
+}
+}
+#home .btn-cta img{
+    max-width: 18%;
+}
+
+/* about section  */
+#about{
+    
+    background: url(/assets/img/introduction-bg.jpg);
+    background-position: top;
+    background-size: cover;
+    padding: 60px 0;
+ 
+}
+/* about carousel  */
+#about .about-carousel{
+    background: url(/assets/img/image-bar-bg.png);
+    background-position: 50%;
+    background-size: cover;
+    padding: 15px 0 5px;
+}
+@media screen and (max-width: 768px){
+    #about .about-carousel{
+       
+    }
+}
+
+/* free minting  */
+#free-minting {
+    background-image: url(/assets/img/minting-bg.png);
+    background-position: 50%;
+    background-size: cover;
+    padding: 120px 0 60px;
+}
+#free-minting .ps-info-box img {
+    margin: 30px 0;
+    max-width: 25%;
+}
+#free-minting #mint-btn {
+    text-decoration: none;
+    background-color: #2eba85;
+    border: 3px solid #2eba85;
+    border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    margin-top: 40px!important;
+    padding: 10px 46px;
+}
+/* road map  */
+#roadmap {
+    background: url(/assets/img/roadmap-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.pre{
+    background: #179ae4;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 0 auto -2rem;
+    position: relative;
+    text-align: center;
+    width: 4rem;
+    z-index: 3;
+
+}
+.card{
+    background-color:transparent;
+}
+.card-body{
+    background: rgba(4,26,35,.9);
+    border-radius: 15px;
+    box-shadow: 0 0 15pxrgba(5,165,207,.6);
+    height: 12rem;
+    padding: 0 1rem;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
