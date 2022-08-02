@@ -112,17 +112,17 @@ color: white;
 }
 .pre{
     background: #179ae4;
-    border-radius: 100%;
-    color: #fff;
+    /* border-radius: 100%;
+    color: #fff; */
     font-size: 1.5rem;
     font-weight: 700;
-    height: 4rem;
+    /* height: 4rem; */
     line-height: 4rem;
     margin: 0 auto -2rem;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     width: 4rem;
-    z-index: 3;
+    /* z-index: 3; */
 
 }
 /* .card-section{
@@ -137,15 +137,16 @@ color: white;
 }
 } */
 .card{
- background-color:transparent;
+    background: none !important;
+ 
 }
 .card-body{
     background: rgba(4,26,35,.9);
     border-radius: 15px;
-    box-shadow: 0 0 15pxrgba(5,165,207,.6);
+   
     height: 12rem;
     padding: 0 1rem;
-    position: relative;
+   
     text-align: center;
-    z-index: 2;
+  
 }
