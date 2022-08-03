@@ -260,6 +260,9 @@ color: white;
 #tokenomics #nft-card, #tokenomics #token-box {
     padding: 40px 0;
 }
+#chart img{
+    width: 200px !important;
+}
 }
 #tokenomics #token-box {
     background: linear-gradient(180deg,rgba(46,194,225,.4),rgba(46,194,225,.1) 50%,transparent);
@@ -291,4 +294,90 @@ color: white;
     border-top: 1pxsolidhsla(0,0%,100%,.25);
     margin-top: 10px;
     padding-top: 6px;
+}
+#tokenomics #token-box #dist .fa-circle.one {
+    color: #00a3fe;
+    font-size: 14px;
+}
+#tokenomics #token-box #dist .percentage-one {
+    color: #00a3fe;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#tokenomics #token-box #dist .fa-circle.two {
+    color: #01982b;
+    font-size: 14px;
+}
+#tokenomics #token-box #dist .percentage-two {
+    color: #01982b;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#tokenomics #token-box #dist .fa-circle.three {
+    color: #ea7202;
+    font-size: 14px;
+}
+#tokenomics #token-box #dist .percentage-three {
+    color: #ea7202;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#tokenomics #token-box #dist .fa-circle.four {
+    color: #b61fd1;
+    font-size: 14px;
+}
+#tokenomics #token-box #dist .percentage-four {
+    color: #b61fd1;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#tokenomics #token-box #dist .fa-circle.five {
+    color: #a5bb19;
+    font-size: 14px;
+}
+#tokenomics #token-box #dist .percentage-five {
+    color: #a5bb19;
+    font-size: 12px;
+    padding-left: 20px;
+}
+#tokenomics #token-box .note {
+    font-size: 12px;
+}
+/* nft card  */
+#tokenomics #nft-card {
+    background: rgba(23,154,228,.15);
+    border-radius: 10px;
+    padding: 40px;
+}
+#tokenomics #nft-card .list ul li.greater-than {
+    list-style-image: url(/assets/img/greater-than.png);
+}
+#tokenomics #nft-card .list ul li.asterisk {
+    list-style-image: url(/assets/img/asterisk.png);
+}
+#tokenomics #nft-card .list ul li {
+    padding: 5px 10px;
+}
+/* cards */
+#tokenomics #cards {
+    background: rgba(0,0,0,.65);
+    border-radius: 0;
+    padding: 0 40px;
+}
+#tokenomics #cards .cards-row {
+    background: rgba(23,154,228,.15);
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 30px;
+}
+#tokenomics #cards .cards-row .card-box .r-label {
+    color: #2eba85;
+}
+#tokenomics #cards .cards-row .card-box .p-label {
+    color: #179ae4;
+}
+#tokenomics #nft-bottom {
+    background: rgba(0,0,0,.65);
+    border-radius: 0 0 10px 10px;
+    padding: 40px;
 }
