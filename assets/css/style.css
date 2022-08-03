@@ -1,4 +1,5 @@
 body{
+    background-color: #0b2728;
     font-size:17px;
     color: white;
 }
@@ -380,4 +381,37 @@ color: white;
     background: rgba(0,0,0,.65);
     border-radius: 0 0 10px 10px;
     padding: 40px;
+}
+/* gallery page  */
+#gallery {
+    background-image: url(/assets/img/gallery-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    padding: 120px 0 60px;
+}
+#gallery .container {
+    background: rgba(0,0,0,.6);
+    border-radius: 10px;
+    padding: 60px 0;
+}
+/* tabs  */
+.nav-tabs .nav-link.active {
+    background: #2eba85;
+}
+.nav-tabs .nav-item {
+    font-weight: 600;
+    padding: 0 20px;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+}
+/* MainGallery  */
+#MainGallery {
+    padding: 60px 0;
 }
