@@ -167,12 +167,19 @@ color: white;
     max-width: 1000px;
     padding: 60px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 400px){
     #partners-projects .container{
-        max-width: 400px;
-        padding: 30px;
+        max-width: 300px;
+        padding: 5px;
     }
 }
+@media (min-width:401px) and (max-width: 768px){
+    #partners-projects .container{
+        max-width: 420px;
+        padding: 10px;
+    }
+}
+
 #partners-projects .partners {
     padding-bottom: 40px;
 }
