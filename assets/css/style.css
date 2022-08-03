@@ -169,7 +169,7 @@ color: white;
 }
 @media screen and (max-width: 768px){
     #partners-projects .container{
-        max-width: 450px;
+        max-width: 400px;
         padding: 30px;
     }
 }
